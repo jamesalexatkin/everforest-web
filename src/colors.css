@@ -30,3 +30,15 @@ body{
     background-color: var(--bg0);
     color: var(--fg);
 }
+
+a, a:visited{
+    color: var(--red);
+    text-decoration: none;
+    border-radius: 0.1em;
+}
+
+a:hover, .Nav a:active {
+    background-color: var(--bg2);
+    color: var(--fg);
+    transition: ease 0.5s;
+}

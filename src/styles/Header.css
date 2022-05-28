@@ -3,10 +3,31 @@
     grid-template-areas: "logo nav";
 }
 
+header h1 a, header h1 a:visited{
+    color: var(--fg);
+    padding: 12px;
+}
+
 .Nav{
     grid-area: nav;
     display: grid;
-    grid-template-columns: repeat(4,auto);
+    grid-template-columns: repeat(3,auto);
     align-items: center;
     justify-items: center;
+}
+
+.Nav a:link, .Nav a:visited{
+    background-color: var(--bg0);
+    color: var(--green);
+    padding: 8px;
+    text-align: center;
+    border-radius: 0.1em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Nav a:hover, .Nav a:active {
+    background-color: var(--bg2);
+    color: var(--fg);
+    transition: ease 0.5s;
 }

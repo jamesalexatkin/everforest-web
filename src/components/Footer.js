@@ -1,8 +1,11 @@
 function Footer() {
   return (
     <div className="Footer">
-      <p>© James Atkin 2022</p>
-      <p>Original theme by Sainnhe Park</p>
+      <p>
+        🕸️ Web site designed by James Atkin (
+        <a href="https://github.com/jamesalexatkin/everforest-web">source</a>)
+      </p>
+      <p>🌲 Original theme by Sainnhe Park</p>
     </div>
   );
 }
