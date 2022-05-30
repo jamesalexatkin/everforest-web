@@ -1,11 +1,15 @@
+import "../styles/Base.css";
+import "../styles/Footer.css";
+
 function Footer() {
   return (
     <div className="Footer">
-      <p>
-        🕸️ Web site designed by James Atkin (
-        <a href="https://github.com/jamesalexatkin/everforest-web">source</a>)
+      <p className="FooterP">
+        🕸️ <a href="https://github.com/jamesalexatkin/everforest-web">Source</a>
       </p>
-      <p>🌲 Original theme by Sainnhe Park</p>
+      <p className="FooterP">
+        🌲 <a href="https://github.com/sainnhe/everforest">Theme</a>
+      </p>
     </div>
   );
 }

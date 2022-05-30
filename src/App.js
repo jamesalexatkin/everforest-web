@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Palette from "./components/Palette";
+import "./styles/Base.css";
+import "./styles/Colors.css";
 import Intro from "./components/Intro";
 import Header from "./components/Header";
 import Footer from "./components/Footer";

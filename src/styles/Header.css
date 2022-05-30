@@ -1,6 +1,10 @@
-.Header{
-    display: grid;
+/* Styles for Header component. */
+
+.Header {
+    background-color: var(--bg0);
+    display: flex;
     grid-template-areas: "logo nav";
+    width: 100%;
 }
 
 header h1 a, header h1 a:visited{
@@ -8,12 +12,28 @@ header h1 a, header h1 a:visited{
     padding: 12px;
 }
 
+.Title {
+    margin: 8px;
+}
+
+.Title a:link, .Title a:visited {
+    background-color: var(--bg0);
+    text-align: center;
+}
+
+.Title a:hover, .Title a:active {
+    color: var(--green);
+    transition: ease 0.5s;
+}
+
 .Nav{
+    width: 100%;
     grid-area: nav;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3,auto);
     align-items: center;
-    justify-items: center;
+    justify-content: flex-end;
+    margin: 8px;
 }
 
 .Nav a:link, .Nav a:visited{
@@ -30,4 +50,8 @@ header h1 a, header h1 a:visited{
     background-color: var(--bg2);
     color: var(--fg);
     transition: ease 0.5s;
+}
+
+.NavLink {
+    margin: 8px;
 }

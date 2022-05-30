@@ -1,3 +1,5 @@
+import "../styles/Base.css";
+
 function Intro() {
   return (
     <div className="Intro">
