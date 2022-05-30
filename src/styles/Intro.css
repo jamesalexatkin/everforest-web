@@ -1,0 +1,8 @@
+.Intro {
+    background-color: var(--bg2);
+    padding: 32px;
+}
+
+.Intro h1 {
+    font-family: 'Tiro Telugu', sans-serif;
+}
