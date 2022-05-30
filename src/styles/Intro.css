@@ -6,3 +6,11 @@
 .Intro h1 {
     font-family: 'Tiro Telugu', sans-serif;
 }
+
+a.IntroButton {
+    background-color: var(--green);
+    color: var(--bg0);
+    border-radius: 5%;
+    padding: 8px;
+    margin-top: 32px;
+}

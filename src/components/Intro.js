@@ -12,6 +12,9 @@ function Intro() {
         </a>
         &nbsp;to be warm and soft to protect developers' eyes.
       </h2>
+      <a className="IntroButton" href="/apps">
+        Apps
+      </a>
     </div>
   );
 }

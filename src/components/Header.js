@@ -7,8 +7,8 @@ function Header() {
         <a href="https://github.com/sainnhe/everforest">Everforest</a>
       </h1>
       <nav className="Nav">
-        <a className="NavLink" href="/ports">
-          Ports
+        <a className="NavLink" href="/apps">
+          Apps
         </a>
         <a className="NavLink" href="/palettes">
           Palettes
