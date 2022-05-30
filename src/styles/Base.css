@@ -1,6 +1,7 @@
 /* Styles for base components. */
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: var(--bg1);
     color: var(--fg);
     text-align: center;
