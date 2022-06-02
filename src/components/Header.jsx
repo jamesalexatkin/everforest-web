@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="Header">
       <h1 className="Title">
-        <a href="https://github.com/sainnhe/everforest">Everforest</a>
+        <a href="/">Everforest</a>
       </h1>
       <nav className="Nav">
         <a className="NavLink" href="/apps">
