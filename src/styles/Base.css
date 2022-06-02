@@ -18,3 +18,10 @@ a:hover, .Nav a:active {
     color: var(--fg);
     transition: ease 0.5s;
 }
+
+
+.appsContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
