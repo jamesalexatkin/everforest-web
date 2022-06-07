@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CodeSample from "./components/CodeSample";
-import ThemeApp from "./components/ThemeApp";
+import AppCard from "./components/AppCard";
 
 function HomePage() {
   return (
@@ -25,14 +25,31 @@ function AppsPage() {
         your workflow.
       </h2>
       <div className="appsContainer">
-        <ThemeApp icon="icon-vim.svg" appName="Vim"></ThemeApp>
-        <ThemeApp icon="icon-vs-code.svg" appName="VS Code"></ThemeApp>
-        <ThemeApp
+        <AppCard
+          icon="icon-vim.svg"
+          appName="Vim"
+          url="https://github.com/sainnhe/everforest"
+        ></AppCard>
+        <AppCard
+          icon="icon-vs-code.svg"
+          appName="VS Code"
+          url="https://github.com/sainnhe/everforest-vscode"
+        ></AppCard>
+        <AppCard
           icon="icon-visual-studio.svg"
           appName="Visual Studio 2022"
-        ></ThemeApp>
-        <ThemeApp icon="icon-firefox.svg" appName="Firefox"></ThemeApp>
-        <ThemeApp icon="icon-firefox.svg" appName="Firefox"></ThemeApp>
+          url="https://github.com/ZachFranzen/Everforest"
+        ></AppCard>
+        <AppCard
+          icon="icon-firefox.svg"
+          appName="Firefox"
+          url="https://addons.mozilla.org/en-US/firefox/addon/everforest-dark-official/"
+        ></AppCard>
+        <AppCard
+          icon="icon-firefox.svg"
+          appName="Firefox"
+          url="https://addons.mozilla.org/en-US/firefox/addon/everforest-dark-official/"
+        ></AppCard>
       </div>
     </div>
   );

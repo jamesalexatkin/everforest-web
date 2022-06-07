@@ -1,0 +1,29 @@
+.app-card-outer {
+  background-color: var(--bg3);
+  width: 128px;
+  margin: 16px;
+  align-items: center;
+  border-radius: 4px;
+  transition: ease 0.3s;
+}
+
+.app-card-inner {
+  padding: 8px;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.app-card-outer:hover {
+  background-color: var(--green);
+  color: var(--bg0);
+  transform: scale(105%);
+}
+
+.app-icon {
+  width: 64px;
+  margin-top: 4px;
+}
+
+p {
+  font-weight: bold;
+}
