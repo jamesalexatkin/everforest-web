@@ -20,10 +20,6 @@ function AppsPage() {
   return (
     <div>
       <h1>Supported apps</h1>
-      <h2>
-        Forest all your favourite applications by integrating Everforest into
-        your workflow.
-      </h2>
       <h3>Editors and IDEs</h3>
       <div className="appsContainer">
         <AppCard
@@ -103,7 +99,7 @@ function AppsPage() {
           url="https://gist.github.com/suppayami/7d427d116b97564d1c565a7aed092d08"
         ></AppCard>
         <AppCard
-          icon="icon-xfce4-terminal.svg"
+          icon="icon-xfce4-terminal.png"
           appName="xfce4-terminal"
           url="https://gist.github.com/anka4/0898df5af4537995e032cd5b8011b0d4"
         ></AppCard>
@@ -158,7 +154,7 @@ function AppsPage() {
         ></AppCard>
         <AppCard
           icon="icon-zsh.svg"
-          appName="zsh"
+          appName="Zsh"
           url="https://github.com/sainnhe/dotfiles/tree/master/.zsh-theme"
         ></AppCard>
       </div>
