@@ -1,58 +1,63 @@
 /* Styles for Header component. */
 
 .Header {
-    background-color: var(--bg0);
-    display: flex;
-    grid-template-areas: "logo nav";
-    width: 100%;
+  background-color: var(--bg0);
+  display: flex;
+  grid-template-areas: "logo nav";
+  width: 100%;
 }
 
-header h1 a, header h1 a:visited{
-    color: var(--fg);
-    padding: 12px;
+header h1 a,
+header h1 a:visited {
+  color: var(--fg);
+  padding: 12px;
 }
 
 .Title {
-    margin: 8px;
-    font-family: 'Tiro Telugu', serif;
+  margin: 8px;
+  font-family: "Spectral", serif;
 }
 
-.Title a:link, .Title a:visited {
-    background-color: var(--bg0);
-    text-align: center;
+.Title a:link,
+.Title a:visited {
+  background-color: var(--bg0);
+  text-align: center;
 }
 
-.Title a:hover, .Title a:active {
-    color: var(--green);
-    transition: ease 0.5s;
+.Title a:hover,
+.Title a:active {
+  color: var(--green);
+  transition: ease 0.5s;
 }
 
-.Nav{
-    width: 100%;
-    grid-area: nav;
-    display: flex;
-    grid-template-columns: repeat(3,auto);
-    align-items: center;
-    justify-content: flex-end;
-    margin: 8px;
+.Nav {
+  width: 100%;
+  grid-area: nav;
+  display: flex;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-content: flex-end;
+  margin: 8px;
 }
 
-.Nav a:link, .Nav a:visited{
-    background-color: var(--bg0);
-    color: var(--green);
-    padding: 8px;
-    text-align: center;
-    border-radius: 0.1em;
-    text-decoration: none;
-    display: inline-block;
+.Nav a:link,
+.Nav a:visited {
+  background-color: var(--bg0);
+  color: var(--green);
+  padding: 8px;
+  text-align: center;
+  border-radius: 0.1em;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.Nav a:hover, .Nav a:active {
-    background-color: var(--bg2);
-    color: var(--fg);
-    transition: ease 0.5s;
+.Nav a:hover,
+.Nav a:active {
+  background-color: var(--bg2);
+  color: var(--fg);
+  transition: ease 0.5s;
 }
 
 .NavLink {
-    margin: 8px;
+  margin: 8px;
 }

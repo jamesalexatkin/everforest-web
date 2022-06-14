@@ -3,7 +3,7 @@ import "../styles/AppCard.css";
 
 function AppCard(props) {
   return (
-    <div className="app-card-outer">
+    <div className={"app-card-outer app-card-" + props.category}>
       <a href={props.url}>
         <div className="app-card-inner">
           <img className="app-icon" src={props.icon}></img>
