@@ -98,8 +98,18 @@ function AppsPage() {
           category="terminal-emulator"
           url="https://github.com/icewind/everforest.iterm2"
         ></AppCard>
-        <AppCard icon="icon-.svg" appName="" url=""></AppCard>
-        <AppCard icon="icon-.svg" appName="" url=""></AppCard>
+        <AppCard
+          icon="icon-kitty.svg"
+          appName="Kitty (medium dark)"
+          category="terminal-emulator"
+          url="https://gist.github.com/sophiabrandt/f013c5980b5f89cd068d8f7f47da2e1c"
+        ></AppCard>
+        <AppCard
+          icon="icon-kitty.svg"
+          appName="Kitty (medium light)"
+          category="terminal-emulator"
+          url="https://gist.github.com/sophiabrandt/da7ab58c3ac5e9283e98ba555329f535"
+        ></AppCard>
         <AppCard
           icon="icon-konsole.svg"
           appName="Konsole"
@@ -119,7 +129,7 @@ function AppsPage() {
           url="https://gist.github.com/suppayami/7d427d116b97564d1c565a7aed092d08"
         ></AppCard>
         <AppCard
-          icon="icon-xfce4-terminal.png"
+          icon="icon-xfce4-terminal.svg"
           appName="xfce4-terminal"
           category="terminal-emulator"
           url="https://gist.github.com/anka4/0898df5af4537995e032cd5b8011b0d4"
