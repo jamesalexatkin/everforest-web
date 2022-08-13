@@ -23,6 +23,12 @@ function AppsPage() {
       <h3>Editors and IDEs</h3>
       <div className="appsContainer">
         <AppCard
+          icon="icon-emacs.svg"
+          appName="Emacs"
+          category="editor-ide"
+          url="https://github.com/theory-of-everything/everforest-theme"
+        ></AppCard>
+        <AppCard
           icon="icon-jetbrains.svg"
           appName="JetBrains 1"
           category="editor-ide"
@@ -151,6 +157,12 @@ function AppsPage() {
           appName="GTK"
           category="other"
           url="https://github.com/Theory-of-Everything/everforest-gtk"
+        ></AppCard>
+        <AppCard
+          icon="icon-kde.svg"
+          appName="KDE"
+          category="other"
+          url="https://github.com/Serge2702/KDE-Everforest.git"
         ></AppCard>
         <AppCard
           icon="icon-obsidian.svg"
