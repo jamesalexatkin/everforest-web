@@ -12,7 +12,7 @@
    version="1.1"
    viewBox="0 0 192 192"
    id="svg14"
-   sodipodi:docname="template.svg"
+   sodipodi:docname="icon-xresources.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata20">
@@ -22,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,8 +42,8 @@
      id="namedview16"
      showgrid="false"
      inkscape:zoom="2.4583334"
-     inkscape:cx="1.4467252"
-     inkscape:cy="101.9082"
+     inkscape:cx="-26.372293"
+     inkscape:cy="71.483195"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -55,4 +56,14 @@
      width="153"
      y="19.5"
      x="19.5" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:1.25;font-family:Hack;-inkscape-font-specification:'Hack, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2b3339;fill-opacity:1;stroke:none"
+     x="67.101562"
+     y="130.99219"
+     id="text814"><tspan
+       sodipodi:role="line"
+       id="tspan814"
+       x="67.101562"
+       y="130.99219">X</tspan></text>
 </svg>

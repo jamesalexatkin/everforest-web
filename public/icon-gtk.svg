@@ -12,7 +12,7 @@
    version="1.1"
    viewBox="0 0 192 192"
    id="svg14"
-   sodipodi:docname="template.svg"
+   sodipodi:docname="icon-gtk.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata20">
@@ -22,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,9 +41,9 @@
      inkscape:window-height="1001"
      id="namedview16"
      showgrid="false"
-     inkscape:zoom="2.4583334"
-     inkscape:cx="1.4467252"
-     inkscape:cy="101.9082"
+     inkscape:zoom="4.9166668"
+     inkscape:cx="88.827497"
+     inkscape:cy="78.824265"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -55,4 +56,24 @@
      width="153"
      y="19.5"
      x="19.5" />
+  <path
+     style="fill:#4e3e43;stroke:#2b3339;stroke-width:2.69926953;stroke-opacity:1;fill-opacity:1"
+     inkscape:connector-curvature="0"
+     d="M 43.441762,118.27657 40.818887,52.755614 82.746693,84.204652 v 70.766698 z"
+     id="path852" />
+  <path
+     style="fill:#404d44;stroke:#2b3339;stroke-width:2.69926953;stroke-opacity:1;fill-opacity:1"
+     inkscape:connector-curvature="0"
+     d="M 82.759426,154.98409 145.6575,128.7808 150.90325,63.259848 82.759426,84.230117 v 70.766703 z"
+     id="path854" />
+  <path
+     style="fill:#394f5a;stroke:#2b3339;stroke-width:2.69926953;stroke-opacity:1;fill-opacity:1"
+     inkscape:connector-curvature="0"
+     d="M 40.818887,52.755614 82.746693,84.204652 150.89052,63.234383 104.09893,35.375883 Z"
+     id="path856" />
+  <path
+     style="stroke:#2b3339;stroke-width:1.59155047;stroke-opacity:1"
+     inkscape:connector-curvature="0"
+     d="M 103.89522,99.343481 43.670945,117.16885 Z m 0,0 42.01693,29.284529 z m 0,0 v -63.66202"
+     id="path858" />
 </svg>

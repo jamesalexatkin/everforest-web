@@ -135,12 +135,6 @@ function AppsPage() {
           url="https://github.com/mhanberg/forest-night-alfred"
         ></AppCard>
         <AppCard
-          icon="icon-btop.svg"
-          appName="Btop"
-          category="other"
-          url="https://github.com/iambeingtracked/btop-everforest"
-        ></AppCard>
-        <AppCard
           icon="icon-element.svg"
           appName="Element"
           category="other"
