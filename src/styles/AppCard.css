@@ -9,7 +9,7 @@
 }
 
 .app-card-outer:hover {
-  color: var(--bg0);
+  background-color: var(--bg5);
   transform: scale(105%);
 }
 
@@ -17,28 +17,12 @@
   color: var(--green);
 }
 
-.app-card-outer a :hover {
-  color: var(--bg0);
-}
-
-.app-card-editor-ide:hover {
-  background-color: var(--green);
-}
-
 .app-card-terminal-emulator a {
   color: var(--blue);
 }
 
-.app-card-terminal-emulator:hover {
-  background-color: var(--blue);
-}
-
 .app-card-other a {
   color: var(--red);
-}
-
-.app-card-other:hover {
-  background-color: var(--red);
 }
 
 .app-card-inner {
@@ -50,8 +34,17 @@
 .app-icon {
   width: 64px;
   margin-top: 4px;
+  color: var(--bg0);
+}
+
+.app-card-outer:hover .app-icon {
+  /* filter: grayscale(); */
 }
 
 p {
   font-weight: bold;
+}
+
+img:hover {
+  fill: red;
 }
