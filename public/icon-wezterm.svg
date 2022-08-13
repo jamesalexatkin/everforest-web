@@ -12,7 +12,7 @@
    version="1.1"
    viewBox="0 0 192 192"
    id="svg14"
-   sodipodi:docname="icon-hyper.svg"
+   sodipodi:docname="icon-wezterm.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata20">
@@ -22,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,8 +42,8 @@
      id="namedview16"
      showgrid="false"
      inkscape:zoom="2.4583334"
-     inkscape:cx="-134.41768"
-     inkscape:cy="101.9082"
+     inkscape:cx="-94.304495"
+     inkscape:cy="71.483195"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -55,9 +56,14 @@
      width="153"
      y="19.5"
      x="19.5" />
-  <path
-     inkscape:connector-curvature="0"
-     style="fill-rule:evenodd;stroke-width:4.08932972;fill:#2b3339;fill-opacity:1"
-     d="m 104.07678,126.4946 h 53.84521 v 10.13639 H 104.07678 Z M 87.557735,100.22978 40.150183,141.52812 54.905065,105.38544 34.078007,91.766299 81.485559,50.471881 65.437485,88.92127 Z"
-     id="path2" />
+  <text
+     xml:space="preserve"
+     style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;line-height:1.25;font-family:Hack;-inkscape-font-specification:'Hack, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2b3339;fill-opacity:1;stroke:none"
+     x="34.101562"
+     y="125.41406"
+     id="text814"><tspan
+       sodipodi:role="line"
+       id="tspan1362"
+       x="34.101562"
+       y="125.41406">$W</tspan></text>
 </svg>
