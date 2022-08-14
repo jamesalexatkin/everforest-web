@@ -208,10 +208,10 @@ function App() {
     <div className="App">
       <Header></Header>
 
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/apps" element={<AppsPage />} />
+          <Route exact={true} path="/" element={<HomePage />} />
+          <Route path="apps" element={<AppsPage />} />
         </Routes>
       </BrowserRouter>
 
