@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/everforest-web/static/css/main.6ac7f8d7.css",
-    "main.js": "/everforest-web/static/js/main.e420964e.js",
+    "main.js": "/everforest-web/static/js/main.4ae32fc4.js",
     "index.html": "/everforest-web/index.html",
     "main.6ac7f8d7.css.map": "/everforest-web/static/css/main.6ac7f8d7.css.map",
-    "main.e420964e.js.map": "/everforest-web/static/js/main.e420964e.js.map"
+    "main.4ae32fc4.js.map": "/everforest-web/static/js/main.4ae32fc4.js.map"
   },
   "entrypoints": [
     "static/css/main.6ac7f8d7.css",
-    "static/js/main.e420964e.js"
+    "static/js/main.4ae32fc4.js"
   ]
 }
