@@ -10,7 +10,7 @@
 header h1 a,
 header h1 a:visited {
   color: var(--fg);
-  padding: 12px;
+  padding-left: 12px;
 }
 
 .Title {

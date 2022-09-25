@@ -3,7 +3,7 @@ import "./styles/Colors.css";
 import Intro from "./components/Intro";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import CodeSample from "./components/CodeSample";
 import AppCard from "./components/AppCard";
 
@@ -206,14 +206,14 @@ function AppsPage() {
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <HashRouter>
+        <Header></Header>
 
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route exact={true} path="/" element={<HomePage />} />
-          <Route path="apps" element={<AppsPage />} />
+          <Route path="/apps" element={<AppsPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
       <Footer></Footer>
     </div>
