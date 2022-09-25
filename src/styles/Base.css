@@ -1,7 +1,7 @@
 /* Styles for base components. */
 
 body {
-  font-family: "Spectral", serif;
+  font-family: Spectral, serif;
   background-color: var(--bg1);
   color: var(--fg);
   text-align: center;
@@ -15,13 +15,13 @@ a:visited {
 }
 
 a:hover,
-.Nav a:active {
+.nav a:active {
   background-color: var(--bg2);
   color: var(--fg);
   transition: ease 0.5s;
 }
 
-.appsContainer {
+.apps-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: center;

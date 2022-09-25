@@ -1,10 +1,10 @@
 /* Styles for Footer component. */
 
-.Footer {
-    display: flex;
-    justify-content: center;
+.footer {
+  display: flex;
+  justify-content: center;
 }
 
-.FooterP {
-    margin: 2em;
+.footer-p {
+  margin: 2em;
 }
