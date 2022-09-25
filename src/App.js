@@ -21,7 +21,7 @@ function AppsPage() {
     <div>
       <h1>Supported apps</h1>
       <h3>Editors and IDEs</h3>
-      <div className="appsContainer">
+      <div className="apps-container">
         <AppCard
           icon="icon-emacs.svg"
           appName="Emacs"
@@ -73,7 +73,7 @@ function AppsPage() {
       </div>
 
       <h3>Terminal emulators</h3>
-      <div className="appsContainer">
+      <div className="apps-container">
         <AppCard
           icon="icon-alacritty.svg"
           appName="Alacritty"
@@ -137,7 +137,7 @@ function AppsPage() {
       </div>
 
       <h3>Other applications</h3>
-      <div className="appsContainer">
+      <div className="apps-container">
         <AppCard
           icon="icon-alfred.svg"
           appName="Alfred"

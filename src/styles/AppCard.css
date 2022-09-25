@@ -5,7 +5,7 @@
   align-items: center;
   border-radius: 4px;
   transition: ease 0.3s;
-  box-shadow: var(--bg0) 0px 4px 6px, var(--bg0) 0px 5px 7px;
+  box-shadow: var(--bg0) 0 4px 6px, var(--bg0) 0 5px 7px;
 }
 
 .app-card-outer:hover {

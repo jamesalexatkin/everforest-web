@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Intro() {
   return (
-    <div className="Intro">
+    <div className="intro">
       <h1>A green-based color palette.</h1>
       <p>
         Designed by&nbsp;
@@ -13,7 +13,7 @@ function Intro() {
         </a>
         &nbsp;to be warm and soft to protect developers' eyes.
       </p>
-      <Link className="IntroButton" to="/apps">
+      <Link className="intro-button" to="/apps">
         Apps
       </Link>
     </div>

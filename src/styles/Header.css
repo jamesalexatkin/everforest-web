@@ -1,6 +1,6 @@
 /* Styles for Header component. */
 
-.Header {
+.header {
   background-color: var(--bg0);
   display: flex;
   grid-template-areas: "logo nav";
@@ -13,24 +13,24 @@ header h1 a:visited {
   padding-left: 12px;
 }
 
-.Title {
+.title {
   margin: 8px;
-  font-family: "Spectral", serif;
+  font-family: Spectral, serif;
 }
 
-.Title a:link,
-.Title a:visited {
+.title a:link,
+.title a:visited {
   background-color: var(--bg0);
   text-align: center;
 }
 
-.Title a:hover,
-.Title a:active {
+.title a:hover,
+.title a:active {
   color: var(--green);
   transition: ease 0.5s;
 }
 
-.Nav {
+.nav {
   width: 100%;
   grid-area: nav;
   display: flex;
@@ -40,8 +40,8 @@ header h1 a:visited {
   margin: 8px;
 }
 
-.Nav a:link,
-.Nav a:visited {
+.nav a:link,
+.nav a:visited {
   background-color: var(--bg0);
   color: var(--green);
   padding: 8px;
@@ -51,13 +51,9 @@ header h1 a:visited {
   display: inline-block;
 }
 
-.Nav a:hover,
-.Nav a:active {
+.nav a:hover,
+.nav a:active {
   background-color: var(--bg2);
   color: var(--fg);
   transition: ease 0.5s;
-}
-
-.NavLink {
-  margin: 8px;
 }
