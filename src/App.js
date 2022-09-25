@@ -3,7 +3,7 @@ import "./styles/Colors.css";
 import Intro from "./components/Intro";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import CodeSample from "./components/CodeSample";
 import AppCard from "./components/AppCard";
 

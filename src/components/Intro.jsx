@@ -1,5 +1,6 @@
 import "../styles/Base.css";
 import "../styles/Intro.css";
+import { Link } from "react-router-dom";
 
 function Intro() {
   return (
@@ -12,9 +13,9 @@ function Intro() {
         </a>
         &nbsp;to be warm and soft to protect developers' eyes.
       </p>
-      <a className="IntroButton" href="/apps">
+      <Link className="IntroButton" to="/apps">
         Apps
-      </a>
+      </Link>
     </div>
   );
 }
