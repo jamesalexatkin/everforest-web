@@ -1,0 +1,9 @@
+.Square {
+  width: 128px;
+  height: 128px;
+  /* border-style: solid; */
+}
+
+.ColorBox {
+  display: inline-block;
+}

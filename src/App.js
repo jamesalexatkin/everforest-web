@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import CodeSample from "./components/CodeSample";
 import AppCard from "./components/AppCard";
+import Palette from "./components/Palette";
 
 function HomePage() {
   return (
@@ -203,6 +204,49 @@ function AppsPage() {
   );
 }
 
+function PalettesPage() {
+  return (
+    <div>
+      <h1>Palettes</h1>
+      {/* <h3>Editors and IDEs</h3> */}
+      <p>
+        Everforest contains two major color palettes: dark and light.
+        <br></br>
+        Each color palette is composed of two sub-palettes: palette1 for
+        background colors, and palette2 for foreground colors.
+        <br></br>
+        Background colors come in three flavours based on their contrast: hard,
+        medium (default) and low.
+      </p>
+
+      <h3>Dark</h3>
+      <h4>Background colors</h4>
+
+      <Palette
+        colors={[
+          "#2b3339",
+          "#323c41",
+          "#3a454a",
+          "#445055",
+          "#4c555b",
+          "#53605c",
+        ]}
+      ></Palette>
+
+      <Palette
+        colors={["#503946", "#4e3e43", "#404d44", "#394f5a", "#4a4940"]}
+      ></Palette>
+
+      <h4>Foreground colors</h4>
+
+      <h3>Light</h3>
+      <h4>Background colors</h4>
+
+      <h4>Foreground colors</h4>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -212,6 +256,7 @@ function App() {
         <Routes>
           <Route exact={true} path="/" element={<HomePage />} />
           <Route path="/apps" element={<AppsPage />} />
+          <Route path="/palettes" element={<PalettesPage />} />
         </Routes>
       </HashRouter>
 

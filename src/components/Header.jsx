@@ -10,7 +10,7 @@ function Header() {
       <nav className="nav">
         <Link to="/apps">Apps</Link>
         <Link to="/palettes">Palettes</Link>
-        <button></button>
+        {/* <button>TODO: dark/light toggle</button> */}
       </nav>
     </header>
   );
