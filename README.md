@@ -1,3 +1,9 @@
+# 🚧 As of 6th September 2024, this repository is archived.🚧
+
+_I replaced this site with a static site in a [new repository](https://github.com/jamesalexatkin/everforest-homepage) and hosted at [http://jamesatk.in/everforest-homepage/](http://jamesatk.in/everforest-homepage/)._
+
+---
+
 <h1 align="center">
   🌲 Everforest Web
 </h1>
